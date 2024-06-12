@@ -47,7 +47,7 @@
         <input style="margin-top: 10px;" type="text" placeholder="الإسم" name="إسم الزبون" required>
         <input type="tel" pattern="[0-9]{10}" placeholder="رقم الهاتف" name="رقم الهاتف" title="يرجى إدخال رقم الهاتف المكون من عشرة أرقام" required>
         <div class="error-message" id="phoneError"></div>
-        <select style="margin: 0; margin-bottom: 10px;" name="الولاية" id="state">
+        <select style="margin: 0; margin-bottom: 10px;" name="الولاية" id="state" required>
             <option value="" selected disabled>اختر ولايتك</option>
             <option value="أدرار">1. ولاية أدرار</option>
             <option value="الشلف">2. ولاية الشلف</option>
@@ -109,7 +109,7 @@
             <option value="المنيعة">58. ولاية المنيعة</option>
         </select>
         <input style="font-size: 15px;" type="text" placeholder="البلدية (تسكن خارج الولاية اختر التوصيل الى المنزل)" name="البلدية" required>
-        <select style="margin: 0; margin-bottom: 10px;" name="التوصيل" id="delivery">
+        <select style="margin: 0; margin-bottom: 10px;" name="التوصيل" id="delivery" required>
             <option value="" selected disabled>اختر التوصيل</option>
             <option value="المكتب">المكتب ( متوفر الولاية فقط )</option>
             <option value="المنزل">المنزل</option>
